@@ -53,6 +53,7 @@
 
 .slider-caption {
   position: relative;
+  margin-top: -50px;
   top: 45%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -121,7 +122,7 @@
     2. HOME PAGE.
 ===================================== */
 .hero-box {
-  margin-top: -223px;
+  margin-top: -350px;
   z-index: 1;
   position: relative;
 }
@@ -194,7 +195,7 @@
 
 .destination-box figcaption {
   position: absolute;
-  height: 90px;
+  height: 55px;
   left: 15px;
   right: 15px;
   bottom: 15px;
@@ -234,7 +235,7 @@
 
 .destination-box:hover figcaption,
 .destination-box.hover figcaption {
-  height: calc(75%);
+  height: calc(40%);
 }
 
 .destination-box ul li {
@@ -612,7 +613,7 @@ p.rating-count {
 ===================================== */
 footer {
   padding: 80px 0px;
-  background: var(--primary-color);
+  background: #2485b0;
 }
 
 .footer-logo {
@@ -639,7 +640,7 @@ ul.footer-menu li a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #FFF;
+  background: #2485b0;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;

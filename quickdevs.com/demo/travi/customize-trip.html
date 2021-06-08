@@ -2,14 +2,15 @@
 <html lang="en-US" class="no-js">
 
 
-<!-- Mirrored from quickdevs.com/demo/travi/tour-description.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 May 2021 10:42:23 GMT -->
+<!-- Mirrored from quickdevs.com/demo/travi/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 May 2021 10:55:21 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- TITLE -->
-    <title>ATV Driving - Travi Tour Guide And Excursions HTML Template</title>
+    <title>Fit My Trip Pack and Go </title>
 
     <!--  FAVICON  -->
     <link rel="shortcut icon" href="images/icons/favicon.png">
@@ -33,6 +34,17 @@
 
     <!-- MODERNIZR LIBRARY -->
     <script src="js/modernizr-custom.js"></script>
+
+    <style>
+        .check-and-radio-div{
+            margin: 20px;
+            margin-bottom: 30px;
+            font-family: inherit;
+        }
+        .check-and-radio-div h6{
+            color: #173158;
+        }
+    </style>
 
 </head>
 
@@ -94,10 +106,13 @@
         </nav>
         <!-- NAV END -->
 
-        <div class="pages-hero atv-activity">
+        <div class="pages-hero blogs-bg">
             <div class="container">
                 <div class="pages-title">
-                    <h1>ATV Adventure <br>in Bavaro</h1>
+                    <h1>Fit My Trip</h1>
+                    <div class="page-nav">
+                        <p><a href="#">Home</a> &nbsp; | &nbsp; <a href="#">Fit My Trip</a></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,41 +120,55 @@
 
     <!-- CONTENT START -->
     <section>
+        <!-- CONTACT FORM START -->
+        <div class="contact-banner mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contact-box">
+                            <div class="cb-circle">
+                                <figure class="cb-icon">
+                                    <img src="images/icons/placeholder.png" alt="">
+                                </figure>
+                            </div>
+                            <p>The Hive, 1st Floor, M.A. Tabba Foundation Building, Gizri Road, Block-9 Clifton, Karachi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 spacing-m-center">
+                        <div class="contact-box">
+                            <div class="cb-circle">
+                                <figure class="cb-icon">
+                                    <img src="images/icons/telephone.png" alt="">
+                                </figure>
+                            </div>
+                            <p><a href="tel:(+92) 336 2805685"> (+92) 336 2805685</a></p>
+                            <p><a href="tel:(+92) 21-37131410"> (+92) 21-37131410</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-box">
+                            <div class="cb-circle">
+                                <figure class="cb-icon">
+                                    <img src="images/icons/placeholder.png" alt="">
+                                </figure>
+                            </div>
+                            <p><a href="mailto:contact@edgequest.org">contact@edgequest.org</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container mt-5 mb-5">
-            <div class="row no-gutters">
-                <div class="col-lg-8">
-                    <div class="feature-img" style="background-image:url(images/commons/feature-thumb-0.jpg);">
-
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="contact-title">
+                        <h3>Customize Your Trip</h3>
+                        <p>World’s leading non-asset- based supply chain management companies, we design and implement
+                            industry-leading. We specialise in intelligent & effective search and believes business.</p>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="feature-img-thumb" style="background-image:url(images/commons/feature-thumb-1.jpg);">
-
-                    </div>
-                    <div class="feature-img-thumb" style="background-image:url(images/commons/feature-thumb-2.jpg);">
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="activity-description">
-                <p>Boundless Boat Charters' family-friendly fishing excursions are<strong> limited to four
-                        passengers</strong>,
-                    meaning there's plenty of space for everyone to comfortably reel in their catch. The company runs
-                    morning
-                    and afternoon trips that last 5 1/2 hours (perfect for first-timers or young anglers), nine-hour
-                    trips
-                    offshore or to Mexico's Coronado Islands, and a full-day (12-hour) deep-sea fishing outing.</p>
-                <p>Coletta Sportfishing offers daily private charters on both its boats. Coletta is family-friendly
-                    and caters to all experience levels; the captain and crew will teach young and first-time anglers
-                    the basics of sportfishing. Outings range from half-day trips (5 1/2 hours) to full-day (12-hour)
-                    charters. </p>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-lg-8">
-                    <h3>Book Your Trip Now</h3>
-                    <br>
+                    <br />
                     <form id="contact-form" method="post" action="http://quickdevs.com/demo/travi/contact.php">
                         <div class="messages"></div>
                         <div class="controls">
@@ -147,11 +176,20 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <input id="form_name" type="text" name="name" class="form-control custom-form"
-                                            placeholder="*Name" required="required" data-error="Firstname is required.">
+                                            placeholder="*First Name" required="required"
+                                            data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="text" name="lname" class="form-control custom-form"
+                                            placeholder="*Last Name" required="required"
+                                            data-error="Last Name is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
                                     <div class="form-group">
                                         <input id="form_email" type="email" name="email"
                                             class="form-control custom-form" placeholder="*Email address"
@@ -159,11 +197,70 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
+                                <div class="col-sm-6">
+                                    <form>
+                                        <input style="margin-bottom: 15px;" placeholder="Expected Date Of Travel" onfocus="(this.type='date')"
+                                            id="date" required="required" data-error="Date is required."
+                                            class="form-control custom-form" name="birthday">
+                                        <div class="help-block with-errors"></div>
+                                    </form>
+                                </div>
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <input id="form_phone" type="tel" name="phone" class="form-control custom-form"
-                                            placeholder="*Please enter your phone">
+                                        <input id="form_phone" min="0" type="number" name="phone"
+                                            class="form-control custom-form" placeholder="*Please enter your phone"
+                                            required="required" data-error="Phone number is required.">
                                         <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input id="form_phone" min="0" type="number" name="phone"
+                                            class="form-control custom-form" placeholder="*Trip Duration"
+                                            required="required" data-error="Trip duration is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input id="form_phone" min="0" type="number" name="phone"
+                                            class="form-control custom-form" placeholder="*Number Of Members"
+                                            required="required" data-error="Number Of Members Required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input id="form_phone" min="0" type="number" name="phone"
+                                            class="form-control custom-form" placeholder="*Desired Number Of Rooms"
+                                            required="required" data-error="Number Of Rooms required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="check-and-radio-div">
+                                    <div class="col-sm-12">
+                                        <h6>Tour Category</h6>
+                                        <form>
+                                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                            <label for="vehicle1"> Economy</label><br>
+                                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                            <label for="vehicle2"> Standard</label><br>
+                                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                            <label for="vehicle3"> Executive</label><br><br>
+                                        </form>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <h6>Tour Starting City</h6>
+                                        <form>
+                                            <input type="radio" id="male" name="gender" value="male">
+                                            <label for="male">Karachi</label><br>
+                                            <input type="radio" id="female" name="gender" value="female">
+                                            <label for="female">Hyderabad</label><br>
+                                            <input type="radio" id="other" name="gender" value="other">
+                                            <label for="other">Lahore</label><br>
+                                            <input type="radio" id="other" name="gender" value="other">
+                                            <label for="other">Islamabad</label>
+                                        </form>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
@@ -190,97 +287,19 @@
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+        <!-- CONTACT FORM END -->
 
-                <div class="col-lg-4 spacing-md">
-                    <aside class="aside-right">
-                        <div class="inner-aside">
-                            <figure class="promo-banner">
-                                <img src="images/commons/banner.jpg" alt="">
-                            </figure>
-                        </div>
-                    </aside>
-                </div>
-            </div> 
+        <!-- MAP START -->
+        <div class="bottom-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167616.99483399244!2d-74.08279002518668!3d40.67646407501496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a560db693e3%3A0xb05e8b0bdf854b54!2sGowanus%2C+Brooklyn%2C+Nueva+York%2C+EE.+UU.!5e0!3m2!1ses-419!2sdo!4v1560863423970!5m2!1ses-419!2sdo"
+                class="map-iframe-alt">
+            </iframe>
+
         </div>
-        <div class="thumb-carousel">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <a href="#">
-                        <figure class="tour-hover">
-                            <img src="images/commons/travi-4.jpg" alt="" />
-                            <figcaption>
-                                <div class="square">
-                                    <div></div>
-                                </div>
-                                <h3>Scuba <span> Diving</span></h3>
-                                <p>Coastline First Discovered</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure class="tour-hover">
-                            <img src="images/commons/travi-5.jpg" alt="" />
-                            <figcaption>
-                                <div class="square">
-                                    <div></div>
-                                </div>
-                                <h3>Paragliding  <span> Fly</span></h3>
-                                <p>Highest Mountain Ranges</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure class="tour-hover">
-                            <img src="images/commons/travi-6.jpg" alt="" />
-                            <figcaption>
-                                <div class="square">
-                                    <div></div>
-                                </div>
-                                <h3>Mountain  <span> Bike</span></h3>
-                                <p>Komodo National Park</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure class="tour-hover">
-                            <img src="images/commons/travi-7.jpg" alt="" />
-                            <figcaption>
-                                <div class="square">
-                                    <div></div>
-                                </div>
-                                <h3>Yacth <span> Excursion</span></h3>
-                                <p>Swim with Manta Rays</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure class="tour-hover">
-                            <img src="images/commons/travi-8.jpg" alt="" />
-                            <figcaption>
-                                <div class="square">
-                                    <div></div>
-                                </div>
-                                <h3>Horse <span> Riding</span></h3>
-                                <p>Guided Horseback Ride</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </div>
-            <div class="owl-theme">
-                <div class="owl-controls">
-                    <div class="custom-nav owl-nav"></div>
-                </div>
-            </div>
-        </div>
+        <!-- MAP END -->
     </section>
     <!-- CONTENT END -->
 
@@ -332,5 +351,6 @@
 </body>
 
 
-<!-- Mirrored from quickdevs.com/demo/travi/tour-description.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 May 2021 10:45:32 GMT -->
+<!-- Mirrored from quickdevs.com/demo/travi/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 May 2021 10:55:24 GMT -->
+
 </html>

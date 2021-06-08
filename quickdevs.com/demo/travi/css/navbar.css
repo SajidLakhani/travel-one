@@ -1,7 +1,7 @@
 .navbar {
   position: absolute;
+  background-color: transparent;
   left: 0;
-  top: 25px;
   padding: 0;
   width: 100%;
   z-index: 2;
@@ -19,7 +19,9 @@
 .navbar .navbar-brand img {
   width: 100%;
 }
-
+.navbar .navbar-brand img:focus {
+  outline: none;
+}
 .navbar .navbar-toggler {
   position: relative;
   height: 60px;
@@ -155,7 +157,7 @@
   top: 0;
   -webkit-animation: fade .50s;
   animation: fade .50s;
-  background-color: var(--primary-color);
+  background-color:#2485b0;
   -webkit-box-shadow: 0 4px 4px -6px #333;
   -moz-box-shadow: 0 4px 4px -6px #333;
   box-shadow: 0 4px 4px -6px #333;
