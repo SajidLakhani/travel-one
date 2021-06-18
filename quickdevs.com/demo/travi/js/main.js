@@ -206,6 +206,7 @@ $(function () {
         // Different transition duration
         transitionDuration: "0.5s"
     });
+    
 
     // on filter button click
     $(".filter-container li").click(function (e) {
@@ -222,6 +223,33 @@ $(function () {
         // filter
         $margin.isotope({
             filter: $filter
+        });
+    });
+});
+
+$(function () {
+    var $margin2 = $("#trips-grid").isotope({
+        itemSelector: ".grid-box",
+        // Different transition duration
+        transitionDuration: "0.5s"
+    });
+    
+
+    // on filter button click
+    $(".filter-container2 li").click(function (e) {
+        var $this = $(this);
+
+        // Prevent default behaviour
+        e.preventDefault();
+        $('.filter2 li').removeClass('active2');
+        $this.addClass('active2');
+
+        // Get the filter data attribute from the button
+        var $filter2 = $this.attr("data-filter2");
+
+        // filter
+        $margin2.isotope({
+            filter: $filter2
         });
     });
 });

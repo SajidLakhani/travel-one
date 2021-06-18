@@ -629,7 +629,11 @@ h5.subtitle{
     margin: 0rem auto 2.5rem;
     text-align: center;
   }
-
+  .filter-container2 {
+    width: 100%;
+    margin: 0rem auto 2.5rem;
+    text-align: center;
+  }
   .filter {
     padding: 0;
     list-style: none;
@@ -657,17 +661,58 @@ h5.subtitle{
     border-radius: 50rem !important;
     color: #FFF;
   }
+  .filter2 {
+    padding: 0;
+    list-style: none;
+  }
 
+  .filter2 li {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 2;
+    padding: 5px 25px;
+    position: relative;
+    color: var(--headline-color);
+    font-weight: 600;
+    border: solid 2px var(--main-yellow-color);
+    border-radius: 10px;
+    margin: 0px 5px;
+  }
+
+  .filter2 li.active2 {
+    background-color: var(--secundary-color);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 50rem !important;
+    color: #FFF;
+  }
   #kehl-grid {
     position: relative;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
     padding: 0;
-    width: 100%;
+    width: 90%;
     /*  max-width:1920px; */
   }
 
   #kehl-grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #trips-grid {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    /*  max-width:1920px; */
+  }
+
+  #trips-grid:after {
     content: '';
     display: block;
     clear: both;

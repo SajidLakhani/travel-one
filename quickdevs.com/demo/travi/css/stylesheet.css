@@ -937,7 +937,7 @@ ul.footer-menu li a {
     7. ACTIVITY DESCRIPTION. 
   ====================================================*/
 .atv-activity {
-  background-image: url("../images/commons/activity-bg.jpg");
+  background-image: url("../images/commons/for-hunza-back.jpg");
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -946,6 +946,45 @@ ul.footer-menu li a {
 }
 
 .atv-activity:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002642, #002642);
+  opacity: 0.6;
+}
+
+.atv-activity-swat {
+  background-image: url("../images/commons/for-swat-back.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.atv-activity-swat:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002642, #002642);
+  opacity: 0.6;
+}
+.atv-activity-skardu {
+  background-image: url("../images/commons/for-skardu-back.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.atv-activity-skardu:before {
   content: '';
   position: absolute;
   top: 0;
